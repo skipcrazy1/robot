@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(35, 35, 35);
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+.section-title{
+	color: #51a5c0;
+}
+
+.nav-menu{
+	position: fixed;
+	width: 100%;
+	padding: 10px;
+	box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+	background-color: rgb(35, 35, 35);
+	z-index: 1;
+}
+
+.logo{
+	font-size: 30px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.navigation{
+	float: right;
+
+}
+
+.navigation a{
+	line-height: 35px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.navigation a:hover{
+	color: lightsteelblue;
+	text-shadow: 0px 0px 10px lightsteelblue;
+}
+
+.banner{
+	width: 100%;
+	height: 70vh;
+	position: relative;
+	background: url('img/robot.jpg') center/cover no-repeat;
+	padding: 20px;
+	color: #4e4e4e;
+}
+ 
+.banner a{
+	color: black;
+	font-size: 23px;
+	font-weight: 600;
+	background: linear-gradient(90deg, hotpink, orange);
+	padding: 10px; 
+	display: block;   
+	width: fit-content;
+	margin-top: 40px;
+	transition: background 2s;
+}
+
+.banner a:hover{
+	background: linear-gradient(90deg, steelblue, yellow);
+}
+
+.banner-title{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.banner h1{
+	font-size: 50px;
+}
+
+.column{
+	display: inline-block;
+	width: 24%;
+	vertical-align: top;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.column img{
+	margin-bottom: 9px;
+}
+
+.column p{
+	color: #65DAFF;
+	font-size: 30px;
+	
+}
+
+.main-content{
+	box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+.games-container{
+	margin-top: 100px;
+	box-shadow: 0 0 20px black;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.text-csgo h2{
+	color: #00FA9A;
+	text-align: left;
+	margin-bottom: 10px;
+
+}
+
+.text-csgo hr{
+	border-color: #00FA9A;
+	width: 35%
+}
+
+.text-csgo p{
+	margin-top: 10px;
+	text-align: justify;
+}
+
+.img-csgo{
+	background-image: url('img/csgo.jpg');
+	width: 49%;
+	height: 200px;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 1%;
+}
+
+.card-game{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	font-size: 20px;
+	padding: 1px;
+}
+
+.section-title{
+	margin-bottom: 25px;
+}
+
+.text-dota h2{
+	color: #00FA9A;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.text-dota p{
+	margin-top: 10px;
+	text-align: justify;
+}
+
+.text-dota hr{
+	border-color: #00FA9A;
+	width: 35%
+	
+}
+
+.img-dota{
+	background-image: url('img/dota2.jpg');
+	width: 49%;
+	height: 200px;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 1%;
+}
+
+.img-apex{
+	background-image: url('img/apex.jpg');
+	width: 49%;
+	height: 200px;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 1%;
+}
+
+.text-apex h2{
+	color: #00FA9A;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.text-apex hr{
+	border-color: #00FA9A;
+	width: 35%
+}
+
+.text-apex p{
+	margin-top: 10px;
+	text-align: justify;
+}
+
+.final_info h2{
+	text-align: center;
+	color: #65DAFF;
+	margin: 10px 10px;
+}
+
+.final_info p{
+	text-align: center;
+	color: lightgrey;
+}
+
+.final_block{
+	margin-top: 20px;
+	box-shadow: 0 0 8px black;
+	padding: 20px 0;
+}
+
+.final_block h2{
+	text-align: center;
+	color: rgb(101, 217, 255);
+}
+
+.final_block hr{
+	color: lightgrey;
+	width: 40%;
+	margin: 20px auto;
+
+}
+
+.big_button{
+	background-color: rgb(101, 217, 255);
+	padding: 50px 20px;
+
+}
+
+.big_button h2{
+	color: white;
+	display: inline-block;
+}
+
+.big_button a{
+	background-color: black;
+	display: inline-block;
+	float: right;
+	padding: 10px 20px;
+}
+
+.big_button a:hover{
+	background-color: #00FA9A;
+	transition: 0.3s;
+}

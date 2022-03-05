@@ -1,0 +1,56 @@
+<!--дз - стилизировать для доп информации, найти какую-то кратинку сайта и попробовать его повторить.можно даже простенький
+	-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Визитка</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>	
+	<div class="container">
+		<form class="contact-form">
+			<div class="contact-form-heading">
+				<a href="index.html"><</a>
+				<h2>Заявка на вступление</h2>
+			</div>
+			<div class="contact-form-body">
+				<fieldset>
+					<legend>Ваш никнейм в реальной жизни :)</legend>
+				<input class="contact-name" type="text" name="first_name" placeholder="Имя">
+				<br>
+				<input class="contact-name" type="text" name="last_name" placeholder="Фамилия">
+				</fieldset>
+				<p>Ваш пол</p>
+				<input class="gender" id="male" type="radio" name="gender">
+				<label for="male">М</label>
+				<input class="gender" id="female" type="radio" name="gender"> 
+				<label for="female">Ж</label>
+				<br>
+				<input class="age" id="age" type="checkbox" name="age">
+				<label for="age">Мне есть 18</label>
+				<br>
+				<label for="game">Ваша дисциплина</label>
+				<select name="game" id="game">
+					<option value="CS_GO">
+						CS:GO
+					</option>
+					<option value="DOTA">
+						Dota 2
+					</option>
+					<option value="TF_2">
+						Team Fortress 2
+					</option>
+					<option value="pubg">
+						PUBG
+					</option>
+				</select>
+				<br>
+				<textarea rows="10" cols="100" name="comment" id="comment" placeholder="Дополнительная информация"></textarea>
+				<br>
+				<button type="submit">Отправить заявку</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>	
