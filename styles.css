@@ -259,3 +259,29 @@ a{
 	background-color: #00FA9A;
 	transition: 0.3s;
 }
+
+
+@media screen and (min-width: 100px) and (max-width: 1800px){
+	.nav-menu{
+		height: fit-content;
+		display: inline-block;
+	}
+	.nav-item{
+		display: block;
+	}
+	.banner{
+		height: 100vh;
+	}
+	.about-card-title{
+		
+	}
+	.navigation{
+		height: fit-content;
+		line-height: 40px;
+	}
+}
+
+
+
+
+
